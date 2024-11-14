@@ -1,0 +1,10 @@
+{-
+Конфигурация веб-сервера
+-}
+server := @{host="localhost"; port=8080; routes=["/", "/about", "/contact"];}
+
+database := @{type="mysql"; user="admin"; password="secret";}
+
+log_level := debug;
+
+.(server).

@@ -1,0 +1,9 @@
+{-
+Конфигурация приложения
+-}
+app := @{name = "MyApp"; version = "1.0.0"; features = [ "feature1", "feature2", "feature3" ];}
+
+api_keys := @{service1 = "abc123"; service2 = "xyz456";}
+
+.(app).
+
